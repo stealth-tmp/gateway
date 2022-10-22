@@ -7,7 +7,14 @@
         <!-- <link href="style.css" rel="stylesheet" /> -->
     </head>
     <body>
-        <div id="logger"></div>
+        <div id="divRoomName"></div>
+        <div id="divUserName"></div>
+        <div id="divSessionId"></div>
+        <div id="messages"></div>
+        <form onsubmit="return false;">
+            <textarea id="msgContent" rows="5" cols="33"></textarea>
+            <button type="submit" id="sendButton">Send</button>
+        </form>
         <script type="module" src="./js/app.js"></script>
     </body>
 </html>
