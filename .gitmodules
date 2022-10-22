@@ -1,3 +1,1 @@
-[submodule "js/libs"]
-	path = js/libs
-	url = git@github.com:stealth-tmp/p2p-cloudflare-signaling.git
+
